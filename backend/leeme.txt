@@ -1,3 +1,4 @@
 Escribiremos instrucciones claras de instalación. 
 Usaremos Nodejs asi que requerimos instalarlo, revisar documentación. https://nodejs.org/en/download/package-manager
 La primera instrucción llegado aquí npm init -y
+algo cambia en linea 3
