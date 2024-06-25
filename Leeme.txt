@@ -1,5 +1,10 @@
-Hola Creactiva
+¡Hola Creactiva!
 
-Primer archivo de texto
+Misiones crudas:
 
-Modificado rama 1 , 2, 3, 4
+- Crear repositorio.
+- Backend.
+- Frontend.
+- Deployment.
+
+Saludos cordiales.
