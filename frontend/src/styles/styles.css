@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9d9d9d;
+    height: 250px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.secciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt {
+    margin: 20px;
+}
+
+.login {
+    background-color: #383838;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.signup {
+    margin: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+}
