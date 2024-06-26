@@ -1,17 +1,26 @@
+body {
+    font-family: "Kannada MN", sans-serif; 
+    background-color: #D4D4D4;
+    
+}
+
 .home {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #9d9d9d;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #dcdcdc;
     height: 250px;
 }
 
 .navbar {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px; 
 }
 
 .secciones {
@@ -21,20 +30,92 @@
 
 .txt {
     margin: 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    font-family: "Kannada MN", sans-serif; 
+    color: inherit; 
+    background-color: transparent; 
+    text-decoration: none; 
 }
 
+.txt:hover {
+    color: rgb(103, 103, 251); 
+    
+}
+
+
 .login {
-    background-color: #383838;
-    color: whitesmoke;
+    background-color: #5FB451;
+    color: rgb(37, 37, 37);
+    font-family: "Kannada MN", sans-serif; 
     margin: 10px;
     border-radius: 5px;
     width: 100px;
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid #383838; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 5px 5px 0.5px 0px #454545;
+}
+
+.login:hover {
+    background-color: whitesmoke; 
+    color: #5FB451; 
+    border: 1px solid #383838; 
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    
 }
 
 .signup {
     margin: 10px;
     background-color: whitesmoke;
-    color: black;
+    font-family: "Kannada MN", sans-serif; 
+    color: #593e8e;
     border-radius: 5px;
     width: 100px;
+    padding: 10px; 
+    text-align: center; 
+    border: 1px solid black;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 5px 5px 0.5px 0px #454545;
+}
+
+.signup:hover {
+    background-color: #383838;
+    color: whitesmoke; 
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.seccion {
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 300px;
+    color: #383838;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0.5px 0px #454545;
+}
+
+
+.pie {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#383838;
+    color: #D4D4D4;
 }

@@ -4,11 +4,12 @@ const Home = () => {
   return (
     <div className='home'>
         <div>
-          <h1>Proyectos de comunicación.</h1>
+          <h1>Proyectos y  desarrollo de software</h1>
           <h3>DevWeb, UX/UI Design, Audiovisual y más...</h3>
           <button className='login'>Portafolio</button>
+          <button className='signup'>Contactar</button>
         </div>
-        <div>Imagen mamalona</div>
+        <div></div>
     </div>
   )
 }

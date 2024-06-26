@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // pages
 import Home from './pages/Home';
 
+
 // components
 import Navbar from './components/Navbar';
+import Seccion from './components/Seccion';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
               element={ <Home></Home>}
             ></Route>
           </Routes>
+        </div>
+        <Seccion></Seccion>
+        <div className='pie'>
+          <h4>CreActividad - 2024</h4>
         </div>
       </BrowserRouter>
     </div>
