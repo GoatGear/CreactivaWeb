@@ -10,6 +10,9 @@ Estructura:
 
 src
 │   app.js
+|   index.js
+|   config.js
+|   db.js
 ├── config
 │   └── dbConfig.js
 ├── routes
