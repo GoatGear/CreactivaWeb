@@ -1,7 +1,7 @@
+/* src/App.css */
 body {
     font-family: "Kannada MN", sans-serif; 
     background-color: #D4D4D4;
-    
 }
 
 h1 {
@@ -44,9 +44,7 @@ h1 {
 
 .txt:hover {
     color: rgb(103, 103, 251); 
-    
 }
-
 
 .login {
     background-color: #5FB451;
@@ -68,7 +66,54 @@ h1 {
     color: #5FB451; 
     border: 1px solid #383838; 
     box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
-    
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorform {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: "Kannada MN", sans-serif; 
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0.5px 0px #454545;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #593e8e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(89, 62, 142, 0.5);
 }
 
 .signup {
@@ -99,7 +144,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
 .card {
@@ -113,7 +157,6 @@ h1 {
     border: 1px solid black;
     box-shadow: 5px 5px 0.5px 0px #454545;
 }
-
 
 .pie {
     height: 100px;
