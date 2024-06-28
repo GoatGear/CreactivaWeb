@@ -3,3 +3,7 @@ Usaremos Nodejs asi que requerimos instalarlo, revisar documentación. https://n
 La primera instrucción llegado aquí npm init -y
 algo cambia en linea 3
 linea5 en la casa
+
+
+
+aqui no hay nada
