@@ -6,4 +6,17 @@ linea5 en la casa
 
 
 
-aqui no hay nada
+Estructura:
+
+src
+│   app.js
+├── config
+│   └── dbConfig.js
+├── routes
+│   └── userRoutes.js
+├── controllers
+│   └── userController.js
+├── models
+│   └── userModel.js
+├── middlewares
+    └── authMiddleware.js
