@@ -40,7 +40,7 @@ function App() {
             ></Route>
           </Routes>
         </div>
-        <div className='pie'>
+        <div className="flex justify-center items-center h-20 bg-gray-800 text-white">
           <h4>CreActividad - 2024</h4>
         </div>
       </BrowserRouter>
