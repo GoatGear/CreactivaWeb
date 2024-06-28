@@ -4,6 +4,10 @@ body {
     
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 .home {
     display: flex;
     align-items: center;
