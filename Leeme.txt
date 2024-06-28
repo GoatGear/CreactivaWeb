@@ -1,10 +1,14 @@
 ¡Hola Creactiva!
 
-Misiones crudas:
+Misiones crudas 🥴:
 
-- Crear repositorio.
-- Backend.
-- Frontend.
-- Deployment.
+- Crear repositorio. READY ✅
 
-Saludos cordiales.
+- Backend. No ready ❌
+    Estado: sepa la mona 🙈
+
+- Frontend. No ready ❌
+    Estado: Navegación lista, formulario de registro listo 🫡
+
+- Deployment. No ready ❌
+    Estado: Ni te topamos aún brother 🫥
